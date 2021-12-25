@@ -1,25 +1,6 @@
 #include "b3d.h"
 #include <math.h>
 #include <iostream>
-#include <vector>
-
-
-std::vector<ImageCache> cache;
-
-
-bool IsInCache(int ptr) {
-	bool result = false;
-
-	for (unsigned int i = 0; i < cache.size(); i++)
-	{
-		if (cache[i].ptr == ptr)
-		{
-			result = true;
-			break;
-		}
-	}
-	return result;
-}
 
 
 void __stdcall Blitz3D::Graphics3D(int width, int height, int depth, eGraphicModes mode)

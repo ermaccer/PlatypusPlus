@@ -1,10 +1,5 @@
 #pragma once
 
-#define MENU_FOV 92.0f
-#define GAME_FOV 139.0f
-#define MIRROR_FOV 325.0f
-
-
 enum eGraphicModes {
 	GRAPHICS_MODE_AUTO,
 	GRAPHICS_MODE_FULLSCREEN,
@@ -12,16 +7,6 @@ enum eGraphicModes {
 	GRAPHICS_MODE_WINDOWED_SCALED
 };
 
-struct Blitz3DModel {
-	int ptr;
-	char* modelName;
-};
-
-
-struct ImageCache{
-	int ptr;
-bool scaled;
-};
 
 namespace Blitz3D {
 	void __stdcall Graphics3D(int width, int height, int depth, eGraphicModes mode);
