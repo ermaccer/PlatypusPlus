@@ -24,6 +24,12 @@
     <ClInclude Include="b3d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ePlatypusPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -35,5 +41,13 @@
     <ClCompile Include="b3d.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="ePlatypusPlus.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlatypusPlus.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
